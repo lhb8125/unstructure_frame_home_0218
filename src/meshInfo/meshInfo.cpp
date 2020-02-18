@@ -63,11 +63,11 @@ void MeshInfo::addFaceInfo(Mesh& mesh)
 		// printf("%f\n", area);
 	}
 	Field<scalar>* fnew = new Field<scalar>("face", 1, faceNum, area);
-	this->addField<scalar>("face", "area", fnew);
+	this->addField<scalar>("area", fnew);
 	fnew = new Field<scalar>("face", 3, faceNum, normVec);
-	this->addField<scalar>("face", "normal vector", fnew);
+	this->addField<scalar>("normal vector", fnew);
 	fnew = new Field<scalar>("face", 3, faceNum, center);
-	this->addField<scalar>("face", "center", fnew);
+	this->addField<scalar>("center", fnew);
 
 	// for (int i = 0; i < faceNum; ++i)
 	// {
@@ -106,9 +106,9 @@ void MeshInfo::addCellInfo(Mesh& mesh)
 		calculateCellCenter(tmpX, tmpY, tmpZ, nnodes, &center[i*3]);
 	}
 	Field<scalar>* fnew = new Field<scalar>("cell", 1, cellNum, vol);
-	this->addField<scalar>("cell", "volume", fnew);
+	this->addField<scalar>("volume", fnew);
 	fnew = new Field<scalar>("cell", 3, cellNum, center);
-	this->addField<scalar>("cell", "center", fnew);
+	this->addField<scalar>("center", fnew);
 }
 
 template<typename T>

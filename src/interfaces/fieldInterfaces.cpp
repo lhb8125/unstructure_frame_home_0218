@@ -81,7 +81,8 @@ void add_label_field_
 )
 {
 	Field<label>* fnew = new Field<label>(setType, *ndim, *n, fPtr);
-	REGION.addField<label>(setType, fieldName, fnew);
+	REGION.addField<label>(fieldName, fnew);
+	// REGION.addField<label>(setType, fieldName, fnew);
 }
 
 
@@ -95,7 +96,8 @@ void add_scalar_field_
 )
 {
 	Field<scalar>* fnew = new Field<scalar>(setType, *ndim, *n, fPtr);
-	REGION.addField<scalar>(setType, fieldName, fnew);
+	REGION.addField<scalar>(fieldName, fnew);
+	// REGION.addField<scalar>(setType, fieldName, fnew);
 }
 
 
@@ -140,4 +142,41 @@ void finish_exchange_scalar_field_
 {
 	Field<scalar>& fieldI = REGION.getField<scalar>(setType, fieldName);
 	fieldI.checkSendStatus();
+}
+
+void get_scalar_field_neighbor_data_
+(
+	const char* setType,
+	const char* fieldName,
+	void* fPtrPtr,
+	label* ndim,
+	label* n
+)
+{
+	// Field<scalar>& fieldI = REGION.getField<scalar>(setType, fieldName);
+	// Table<Word, scalar*>* nbrDataPtr = fieldI.getNbrData();
+	// Table<Word, scalar*>& nbrData = *nbrDataPtr;
+	// Table<Word, scalar*>::iterator it = nbrData.begin();
+	// Table<Word, Patch*>& patches = fieldI.getPatchTab();
+
+
+
+}
+
+
+void get_scalar_field_neighbor_addressing_
+(
+	const char* setType,
+	const char* fieldName,
+	void* fPtrPtr,
+	label* n
+)
+{
+	// Field<scalar>& fieldI = REGION.getField<scalar>(setType, fieldName);
+	// Table<Word, scalar*>* nbrDataPtr = fieldI.getNbrData();
+	// Table<Word, scalar*>& nbrData = *nbrDataPtr;
+	// Table<Word, scalar*>::iterator it = nbrData.begin();
+	// Table<Word, Patch*>& patches = fieldI.getPatchTab();
+
+
 }
