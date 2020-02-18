@@ -1,0 +1,6 @@
+import GLOVAR as gl
+
+
+cxxfile = ['patch.cpp']
+
+gl.add_files(cxxfile)

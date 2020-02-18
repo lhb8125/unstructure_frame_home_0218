@@ -1,0 +1,268 @@
+0000000000000060 r .L_2__STRING.37
+0000000000000050 r .L_2__STRING.39
+00000000000000b0 r .L_2__STRING.70
+                 U MPI_Barrier
+                 U MPI_Comm_rank
+                 U MPI_Comm_size
+                 U MPI_Finalize
+                 U MPI_Init
+                 U _Unwind_Resume
+0000000000002e90 T loadRegionTopologyFromYAML(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::vector<double, std::allocator<double> >&, ArrayArray<long>&, long)
+000000000000090c r _Z26loadRegionTopologyFromYAMLNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERSt6vectorIdSaIdEER10ArrayArrayIlEl$$LSDA
+0000000000000e70 t _Z26loadRegionTopologyFromYAMLNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERSt6vectorIdSaIdEER10ArrayArrayIlEl..0
+0000000000000114 r _Z26loadRegionTopologyFromYAMLNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERSt6vectorIdSaIdEER10ArrayArrayIlEl..0$$LSDA
+0000000000004090 T hdf5ToAdf(char*, char*)
+                 U LoadBalancer::LoadBalancer_2(std::vector<double, std::allocator<double> >, ArrayArray<long>, long)
+                 U LoadBalancer::LoadBalancer_3(std::vector<Region, std::allocator<Region> >&)
+                 U LoadBalancer::LoadBalancer()
+                 U Mesh::readCGNSFilePar(char const*)
+                 U Mesh::writeCGNSFilePar(char const*, long*)
+0000000000000000 W Mesh::Mesh(Mesh const&)
+0000000000000890 r _ZN4MeshC1ERKS_$$LSDA
+0000000000000000 W Mesh::~Mesh()
+0000000000000a9c r _ZN4MeshD0Ev$$LSDA
+0000000000000000 W Mesh::~Mesh()
+0000000000000804 r _ZN4MeshD1Ev$$LSDA
+0000000000000000 W Mesh::~Mesh()
+000000000000081c r _ZN4MeshD2Ev$$LSDA
+0000000000000000 W YAML::IsInfinity(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+0000000000000000 W YAML::KeyNotFound::~KeyNotFound()
+0000000000000b44 r _ZN4YAML11KeyNotFoundD0Ev$$LSDA
+0000000000000000 W YAML::KeyNotFound::~KeyNotFound()
+0000000000000b34 r _ZN4YAML11KeyNotFoundD1Ev$$LSDA
+0000000000000000 W YAML::KeyNotFound::~KeyNotFound()
+0000000000000624 r _ZN4YAML11KeyNotFoundD2Ev$$LSDA
+0000000000000000 W YAML::InvalidScalar::InvalidScalar(YAML::Mark const&)
+0000000000000c88 r _ZN4YAML13InvalidScalarC1ERKNS_4MarkE$$LSDA
+0000000000000000 W YAML::InvalidScalar::~InvalidScalar()
+0000000000000c64 r _ZN4YAML13InvalidScalarD0Ev$$LSDA
+0000000000000000 W YAML::InvalidScalar::~InvalidScalar()
+0000000000000c78 r _ZN4YAML13InvalidScalarD1Ev$$LSDA
+0000000000000000 W YAML::BadDereference::BadDereference()
+0000000000000318 r _ZN4YAML14BadDereferenceC1Ev$$LSDA
+0000000000000000 W YAML::BadDereference::~BadDereference()
+0000000000000b68 r _ZN4YAML14BadDereferenceD0Ev$$LSDA
+0000000000000000 W YAML::BadDereference::~BadDereference()
+0000000000000b58 r _ZN4YAML14BadDereferenceD1Ev$$LSDA
+0000000000000000 W YAML::TypedKeyNotFound<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~TypedKeyNotFound()
+0000000000000b8c r _ZN4YAML16TypedKeyNotFoundINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED0Ev$$LSDA
+0000000000000000 W YAML::TypedKeyNotFound<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~TypedKeyNotFound()
+0000000000000b7c r _ZN4YAML16TypedKeyNotFoundINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED1Ev$$LSDA
+0000000000000000 W YAML::TypedKeyNotFound<int>::~TypedKeyNotFound()
+0000000000000bb0 r _ZN4YAML16TypedKeyNotFoundIiED0Ev$$LSDA
+0000000000000000 W YAML::TypedKeyNotFound<int>::~TypedKeyNotFound()
+0000000000000ba0 r _ZN4YAML16TypedKeyNotFoundIiED1Ev$$LSDA
+0000000000000000 W YAML::RepresentationException::~RepresentationException()
+0000000000000b20 r _ZN4YAML23RepresentationExceptionD0Ev$$LSDA
+0000000000000000 W YAML::RepresentationException::~RepresentationException()
+0000000000000b10 r _ZN4YAML23RepresentationExceptionD1Ev$$LSDA
+                 U YAML::Node::Node()
+                 U YAML::Node::~Node()
+                 U YAML::Parser::GetNextDocument(YAML::Node&)
+                 U YAML::Parser::Parser(std::basic_istream<char, std::char_traits<char> >&)
+                 U YAML::Parser::~Parser()
+0000000000000000 W bool YAML::Convert<int>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int&, YAML::enable_if<YAML::is_numeric<int>, void>::type*)
+0000000000000264 r _ZN4YAML7ConvertIiEEbRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERT_PNS_9enable_ifINS_10is_numericIS9_EEvE4typeE$$LSDA
+0000000000001ca0 t _ZN4YAML7ConvertIlEEbRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERT_PNS_9enable_ifINS_10is_numericIS9_EEvE4typeE..0
+00000000000002bc r _ZN4YAML7ConvertIlEEbRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERT_PNS_9enable_ifINS_10is_numericIS9_EEvE4typeE..0$$LSDA
+0000000000000000 W YAML::ErrorMsg::KEY_NOT_FOUND_WITH_KEY(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+0000000000000c14 r _ZN4YAML8ErrorMsg22KEY_NOT_FOUND_WITH_KEYERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE$$LSDA
+0000000000004140 t _ZN4YAML8ErrorMsg22KEY_NOT_FOUND_WITH_KEYIiEEKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_PNS_9enable_ifINS_10is_numericIS9_EEvE4typeE..0
+0000000000000bc4 r _ZN4YAML8ErrorMsg22KEY_NOT_FOUND_WITH_KEYIiEEKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_PNS_9enable_ifINS_10is_numericIS9_EEvE4typeE..0$$LSDA
+                 U YAML::Iterator::~Iterator()
+                 U YAML::Iterator::operator++()
+0000000000000000 W YAML::Exception::build_what(YAML::Mark const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+0000000000000498 r _ZN4YAML9Exception10build_whatERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE$$LSDA
+0000000000000000 W YAML::Exception::Exception(YAML::Mark const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+0000000000000384 r _ZN4YAML9ExceptionC1ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE$$LSDA
+0000000000000000 W YAML::Exception::~Exception()
+0000000000000afc r _ZN4YAML9ExceptionD0Ev$$LSDA
+0000000000000000 W YAML::Exception::~Exception()
+0000000000000aec r _ZN4YAML9ExceptionD1Ev$$LSDA
+                 U YAML::operator!=(YAML::Iterator const&, YAML::Iterator const&)
+                 U Nodes::Nodes()
+                 U Nodes::~Nodes()
+0000000000000000 W Region::~Region()
+0000000000000660 r _ZN6RegionD1Ev$$LSDA
+0000000000000000 W Boundary::~Boundary()
+0000000000000ad0 r _ZN8BoundaryD0Ev$$LSDA
+0000000000000000 W Boundary::~Boundary()
+0000000000000ab8 r _ZN8BoundaryD1Ev$$LSDA
+                 U Topology::constructTopology(std::vector<Section, std::allocator<Section> >&)
+                 U Topology::constructTopology()
+0000000000000000 W Topology::Topology(Topology const&)
+000000000000086c r _ZN8TopologyC1ERKS_$$LSDA
+                 U Topology::Topology()
+                 U Topology::~Topology()
+0000000000000000 W Topology::operator=(Topology const&)
+                 U YAML::Node::FindAtIndex(unsigned long) const
+                 U YAML::Node::end() const
+                 U YAML::Node::size() const
+                 U YAML::Node::begin() const
+                 U YAML::Node::GetScalar(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) const
+0000000000000000 W YAML::Node::operator[](char const*) const
+0000000000000574 r _ZNK4YAML4NodeixEPKc$$LSDA
+                 U YAML::Iterator::first() const
+                 U YAML::Iterator::second() const
+                 U std::runtime_error::what() const
+                 U std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::compare(char const*) const
+                 U std::basic_ios<char, std::char_traits<char> >::eof() const
+                 U std::basic_iostream<char, std::char_traits<char> >::~basic_iostream()
+                 U std::basic_istream<char, std::char_traits<char> >::~basic_istream()
+                 U std::basic_istream<char, std::char_traits<char> >::operator>>(std::basic_istream<char, std::char_traits<char> >& (*)(std::basic_istream<char, std::char_traits<char> >&))
+                 U std::basic_istream<char, std::char_traits<char> >::operator>>(int&)
+                 U std::basic_istream<char, std::char_traits<char> >::operator>>(long&)
+                 U std::basic_ostream<char, std::char_traits<char> >::operator<<(std::basic_ostream<char, std::char_traits<char> >& (*)(std::basic_ostream<char, std::char_traits<char> >&))
+                 U std::basic_ostream<char, std::char_traits<char> >::operator<<(int)
+0000000000000000 W std::char_traits<char>::length(char const*)
+0000000000000000 W std::_Vector_base<Region, std::allocator<Region> >::~_Vector_base()
+0000000000000000 W std::_Vector_base<Section, std::allocator<Section> >::~_Vector_base()
+0000000000000000 W std::_Vector_base<BCSection, std::allocator<BCSection> >::~_Vector_base()
+0000000000000000 W std::_Vector_base<std::vector<long, std::allocator<long> >, std::allocator<std::vector<long, std::allocator<long> > > >::~_Vector_base()
+0000000000000000 W std::_Vector_base<double, std::allocator<double> >::~_Vector_base()
+0000000000000000 W std::_Vector_base<long, std::allocator<long> >::~_Vector_base()
+                 U std::__basic_file<char>::~__basic_file()
+                 U std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode)
+                 U std::basic_filebuf<char, std::char_traits<char> >::close()
+                 U std::basic_filebuf<char, std::char_traits<char> >::basic_filebuf()
+                 U std::basic_filebuf<char, std::char_traits<char> >::~basic_filebuf()
+                 U std::runtime_error::runtime_error(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+                 U std::runtime_error::~runtime_error()
+                 U std::basic_ifstream<char, std::char_traits<char> >::~basic_ifstream()
+0000000000000000 W std::numeric_limits<long>::infinity()
+0000000000000000 W std::numeric_limits<long>::quiet_NaN()
+                 U std::locale::locale()
+                 U std::locale::~locale()
+0000000000000000 W std::vector<Region, std::allocator<Region> >::_M_insert_aux(__gnu_cxx::__normal_iterator<Region*, std::vector<Region, std::allocator<Region> > >, Region const&)
+0000000000000684 r _ZNSt6vectorI6RegionSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_$$LSDA
+0000000000000000 W std::vector<Region, std::allocator<Region> >::vector()
+0000000000000000 W std::vector<Region, std::allocator<Region> >::~vector()
+0000000000000634 r _ZNSt6vectorI6RegionSaIS0_EED1Ev$$LSDA
+0000000000000000 W std::vector<Section, std::allocator<Section> >::vector(std::vector<Section, std::allocator<Section> > const&)
+0000000000000858 r _ZNSt6vectorI7SectionSaIS0_EEC1ERKS2_$$LSDA
+0000000000000000 W std::vector<Section, std::allocator<Section> >::vector()
+0000000000000000 W std::vector<Section, std::allocator<Section> >::~vector()
+0000000000000848 r _ZNSt6vectorI7SectionSaIS0_EED1Ev$$LSDA
+0000000000000000 W std::vector<Section, std::allocator<Section> >::operator=(std::vector<Section, std::allocator<Section> > const&)
+0000000000000000 W std::vector<BCSection, std::allocator<BCSection> >::vector(std::vector<BCSection, std::allocator<BCSection> > const&)
+0000000000000834 r _ZNSt6vectorI9BCSectionSaIS0_EEC1ERKS2_$$LSDA
+0000000000000000 W std::vector<BCSection, std::allocator<BCSection> >::vector()
+0000000000000000 W std::vector<BCSection, std::allocator<BCSection> >::operator=(std::vector<BCSection, std::allocator<BCSection> > const&)
+0000000000000000 W std::vector<std::vector<long, std::allocator<long> >, std::allocator<std::vector<long, std::allocator<long> > > >::_M_insert_aux(__gnu_cxx::__normal_iterator<std::vector<long, std::allocator<long> >*, std::vector<std::vector<long, std::allocator<long> >, std::allocator<std::vector<long, std::allocator<long> > > > >, std::vector<long, std::allocator<long> > const&)
+00000000000004e8 r _ZNSt6vectorIS_IlSaIlEESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_$$LSDA
+0000000000000000 W std::vector<std::vector<long, std::allocator<long> >, std::allocator<std::vector<long, std::allocator<long> > > >::vector(std::vector<std::vector<long, std::allocator<long> >, std::allocator<std::vector<long, std::allocator<long> > > > const&)
+00000000000008f4 r _ZNSt6vectorIS_IlSaIlEESaIS1_EEC1ERKS3_$$LSDA
+0000000000000000 W std::vector<std::vector<long, std::allocator<long> >, std::allocator<std::vector<long, std::allocator<long> > > >::vector()
+0000000000000000 W std::vector<std::vector<long, std::allocator<long> >, std::allocator<std::vector<long, std::allocator<long> > > >::~vector()
+00000000000008e4 r _ZNSt6vectorIS_IlSaIlEESaIS1_EED1Ev$$LSDA
+0000000000000000 W std::vector<std::vector<long, std::allocator<long> >, std::allocator<std::vector<long, std::allocator<long> > > >::operator=(std::vector<std::vector<long, std::allocator<long> >, std::allocator<std::vector<long, std::allocator<long> > > > const&)
+00000000000007bc r _ZNSt6vectorIS_IlSaIlEESaIS1_EEaSERKS3_$$LSDA
+0000000000000000 W std::vector<double, std::allocator<double> >::vector(std::vector<double, std::allocator<double> > const&)
+00000000000007f0 r _ZNSt6vectorIdSaIdEEC1ERKS1_$$LSDA
+0000000000000000 W std::vector<double, std::allocator<double> >::vector()
+0000000000000000 W std::vector<double, std::allocator<double> >::~vector()
+00000000000007e0 r _ZNSt6vectorIdSaIdEED1Ev$$LSDA
+0000000000000000 W std::vector<double, std::allocator<double> >::operator=(std::vector<double, std::allocator<double> > const&)
+0000000000000000 W std::vector<long, std::allocator<long> >::_M_insert_aux(__gnu_cxx::__normal_iterator<long*, std::vector<long, std::allocator<long> > >, long const&)
+0000000000000304 r _ZNSt6vectorIlSaIlEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPlS1_EERKl$$LSDA
+0000000000000000 W std::vector<long, std::allocator<long> >::vector(std::vector<long, std::allocator<long> > const&)
+0000000000000100 r _ZNSt6vectorIlSaIlEEC1ERKS1_$$LSDA
+0000000000000000 W std::vector<long, std::allocator<long> >::vector()
+0000000000000000 W std::vector<long, std::allocator<long> >::~vector()
+00000000000008d4 r _ZNSt6vectorIlSaIlEED1Ev$$LSDA
+                 U std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+                 U std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long)
+                 U std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::_M_sync(char*, unsigned long, unsigned long)
+0000000000000000 W std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf()
+00000000000002ac r _ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED1Ev$$LSDA
+                 U std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_stringstream()
+                 U std::ios_base::Init::Init()
+                 U std::ios_base::Init::~Init()
+                 U std::ios_base::ios_base()
+                 U std::ios_base::~ios_base()
+                 U std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)
+                 U std::basic_ios<char, std::char_traits<char> >::clear(std::_Ios_Iostate)
+                 U std::basic_ios<char, std::char_traits<char> >::~basic_ios()
+                 U std::__throw_bad_alloc()
+                 U std::__throw_logic_error(char const*)
+                 U std::__throw_length_error(char const*)
+                 U std::basic_istream<char, std::char_traits<char> >& std::ws<char, std::char_traits<char> >(std::basic_istream<char, std::char_traits<char> >&)
+                 U std::cout
+                 U std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)
+0000000000000000 W void std::_Destroy<long*, long>(long*, long*, std::allocator<long>&)
+0000000000000000 b std::__ioinit
+0000000000001c90 t _ZStanSt12_Ios_IostateS_..0
+                 U std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)
+                 U std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char>, std::allocator<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+0000000000000000 V typeinfo for Mesh
+0000000000000000 V typeinfo for Boundary
+0000000000000000 V typeinfo for YAML::KeyNotFound
+0000000000000000 V typeinfo for YAML::InvalidScalar
+0000000000000000 V typeinfo for YAML::BadDereference
+0000000000000000 V typeinfo for YAML::TypedKeyNotFound<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >
+0000000000000000 V typeinfo for YAML::TypedKeyNotFound<int>
+0000000000000000 V typeinfo for YAML::RepresentationException
+0000000000000000 V typeinfo for YAML::Exception
+                 U typeinfo for std::runtime_error
+0000000000000000 V typeinfo name for Mesh
+0000000000000000 V typeinfo name for Boundary
+0000000000000000 V typeinfo name for YAML::KeyNotFound
+0000000000000000 V typeinfo name for YAML::InvalidScalar
+0000000000000000 V typeinfo name for YAML::BadDereference
+0000000000000000 V typeinfo name for YAML::TypedKeyNotFound<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >
+0000000000000000 V typeinfo name for YAML::TypedKeyNotFound<int>
+0000000000000000 V typeinfo name for YAML::RepresentationException
+0000000000000000 V typeinfo name for YAML::Exception
+                 U VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
+                 U VTT for std::basic_iostream<char, std::char_traits<char> >
+                 U VTT for std::basic_istream<char, std::char_traits<char> >
+                 U VTT for std::basic_ostream<char, std::char_traits<char> >
+                 U VTT for std::basic_ifstream<char, std::char_traits<char> >
+0000000000000000 V vtable for Mesh
+0000000000000000 V vtable for Boundary
+                 U vtable for __cxxabiv1::__class_type_info
+                 U vtable for __cxxabiv1::__si_class_type_info
+0000000000000000 V vtable for YAML::KeyNotFound
+0000000000000000 V vtable for YAML::InvalidScalar
+0000000000000000 V vtable for YAML::BadDereference
+0000000000000000 V vtable for YAML::TypedKeyNotFound<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >
+0000000000000000 V vtable for YAML::TypedKeyNotFound<int>
+0000000000000000 V vtable for YAML::RepresentationException
+0000000000000000 V vtable for YAML::Exception
+                 U vtable for std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
+                 U vtable for std::basic_filebuf<char, std::char_traits<char> >
+                 U vtable for std::basic_streambuf<char, std::char_traits<char> >
+                 U vtable for std::basic_ios<char, std::char_traits<char> >
+                 U operator delete(void*)
+                 U operator new[](unsigned long)
+                 U operator new(unsigned long)
+0000000000002190 T operator>>(YAML::Node const&, std::vector<std::vector<long, std::allocator<long> >, std::allocator<std::vector<long, std::allocator<long> > > >&)
+00000000000003e8 r _ZrsRKN4YAML4NodeERSt6vectorIS3_IlSaIlEESaIS5_EE$$LSDA
+0000000000002a50 T operator>>(YAML::Node const&, std::vector<double, std::allocator<double> >&)
+0000000000000528 r _ZrsRKN4YAML4NodeERSt6vectorIdSaIdEE$$LSDA
+0000000000003cb0 T operator>>(YAML::Node const&, std::vector<long, std::allocator<long> >&)
+0000000000000a5c r _ZrsRKN4YAML4NodeERSt6vectorIlSaIlEE$$LSDA
+0000000000000060 r __$U0
+0000000000000000 r __$U1
+                 U __assert_fail
+                 U __cxa_allocate_exception
+                 U __cxa_atexit
+                 U __cxa_call_unexpected
+                 U __cxa_throw
+                 U __dso_handle
+                 U __gxx_personality_v0
+                 U __intel_new_feature_proc_init
+                 U __intel_sse2_strlen
+0000000000004110 t __sti__$E
+                 U _intel_fast_memcmp
+                 U _intel_fast_memcpy
+                 U _intel_fast_memmove
+                 U cg_get_error
+                 U cg_open
+                 U cg_save_as
+                 U exit
+0000000000000000 T main
+0000000000000000 r main$$LSDA
+                 U printf
+                 U puts
+                 U strtod

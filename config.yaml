@@ -1,0 +1,43 @@
+domain1:
+  name: dom
+  equation:
+    - name: P
+      solver: PCG
+      preconditioner: DIC
+    - name: U
+      solver: PBiCG
+      preconditioner: DILU
+  region:
+    - name: region1
+      path: "./data/tetra_4_pyra_5.cgns"
+      #path: "./data/hdf5_1.cgns"
+      #path: "./data/SC10_steady.cgns"
+      #path: 
+      #  - "./data/hdf5_1.cgns" 
+      #  - "./data/hdf5_2.cgns" 
+      #resPath: "./data/SC10_result.cgns"
+      resPath: "./data/mixed_result.cgns"
+      #resPath: "./data/result.cgns"
+      scheme:
+        - name: ddt
+          format: steadyState
+        - name: grad
+          format: Gauss
+    - name: region2
+      path: "./data/result.cgns"
+      resPath: "./data/result.cgns"
+      scheme:
+        - name: ddt
+          format:
+          - steadyState
+        - name: grad
+          format:
+          - Gauss
+          - linear
+  turbulent:
+    model: LES
+  solve:
+    deltaT: 1e-6
+    startT: 0
+    endT: 100
+    writeInterval: 20

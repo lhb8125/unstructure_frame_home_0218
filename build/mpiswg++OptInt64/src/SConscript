@@ -1,0 +1,32 @@
+import os
+import GLOVAR as gl
+
+Import('env')
+
+# copy parent environment so our alterations don't affect it
+env_local = env.Clone()
+
+# make all header files linked in the same dir: 'build/Include'
+gl.build_Include(env_local)
+
+env_local.SConscript('mesh/SConscript', duplicate = 0, exports = 'env')
+env_local.SConscript('meshInfo/SConscript', duplicate = 0, exports = 'env')
+env_local.SConscript('topology/SConscript', duplicate = 0, exports = 'env')
+env_local.SConscript('loadBalancer/SConscript', duplicate = 0, exports = 'env')
+env_local.SConscript('region/SConscript', duplicate = 0, exports = 'env')
+env_local.SConscript('parameter/SConscript', duplicate = 0, exports = 'env')
+env_local.SConscript('utilities/SConscript', duplicate = 0, exports = 'env')
+env_local.SConscript('interfaces/SConscript', duplicate = 0, exports = 'env')
+env_local.SConscript('patch/SConscript', duplicate = 0, exports = 'env')
+#env_local.SConscript('Field/SConscript', duplicate = 0, exports = 'env')
+
+#if gl.platform == 'sw':
+#	# build a static library
+#	env.StaticLibrary(gl.build_path + '/lib/libhsf', source = gl.get_files() )
+#else:
+#	# build a shared library
+#	env.SharedLibrary(gl.build_path + '/lib/libhsf', source = gl.get_files() )
+
+
+env.StaticLibrary(gl.build_path + '/lib/libhsf', source = gl.get_files() )
+

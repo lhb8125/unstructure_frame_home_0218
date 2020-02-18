@@ -1,0 +1,6 @@
+import GLOVAR as gl
+
+cxxfile = ['topology.cpp',
+			'blockTopology.cpp']
+
+gl.add_files(cxxfile)

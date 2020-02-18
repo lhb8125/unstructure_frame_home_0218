@@ -1,0 +1,8 @@
+import GLOVAR as gl
+
+cxxfile = ['boundary.cpp',
+			'mesh.cpp',
+			'nodes.cpp',
+			'section.cpp',]
+
+gl.add_files(cxxfile)

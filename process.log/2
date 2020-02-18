@@ -1,0 +1,109 @@
+start reading mesh ...
+This is rank 2 in 4 processes
+nBases: 1, basename: Base, cellDim: 3, physDim: 3
+precision: 64
+nZones: 1, zoneName: blk-1, zoneType: 3, nodeNum, 251, eleNum: 875, bndEleNum: 0
+The vertices range of processor 2 is (127, 189). 
+nSecs: 5
+iSec: 1, sectionName: PyramidElements, type: 12, start: 860, end: 875, nBnd: 0
+processor 2 will read elements from 868 to 871.
+64
+This is 64 precision
+iSec: 2, sectionName: TetElements, type: 10, start: 1, end: 859, nBnd: 0
+processor 2 will read elements from 431 to 645.
+64
+This is 64 precision
+finish reading mesh ...
+boundary faces num: 642
+start constructing topology ...
+finish constructing topology ...
+start creating interfaces ...
+finish creating interfaces ...
+start reading boundary mesh ...
+This is rank 2 in 4 processes
+nBases: 1, basename: Base, cellDim: 3, physDim: 3
+precision: 64
+nZones: 1, zoneName: blk-1, zoneType: 3, nodeNum, 251, eleNum: 875, bndEleNum: 0
+The vertices range of processor 2 is (127, 189). 
+nSecs: 5
+iSec: 3, sectionName: bc-2, type: 5, start: 876, end: 1121, nBnd: 0
+processor 2 will read elements from 1000 to 1061.
+64
+This is 64 precision
+iSec: 4, sectionName: bc-3, type: 7, start: 1122, end: 1137, nBnd: 0
+processor 2 will read elements from 1130 to 1133.
+64
+This is 64 precision
+iSec: 5, sectionName: bc-4, type: 5, start: 1138, end: 1217, nBnd: 0
+processor 2 will read elements from 1178 to 1197.
+64
+This is 64 precision
+The boundary condition is defined on FaceCenter
+PointRange: iBoco: 1, name: bc-2, type: FamilySpecified, nEles: 2, start: 876, end: 1121
+The boundary condition is defined on FaceCenter
+PointRange: iBoco: 2, name: bc-3, type: FamilySpecified, nEles: 2, start: 1122, end: 1137
+The boundary condition is defined on FaceCenter
+PointRange: iBoco: 3, name: bc-4, type: FamilySpecified, nEles: 2, start: 1138, end: 1217
+finish reading boundary mesh ...
+start constructing boundary topology ...
+There are 2 types of faces.
+The maximum block num is 2 at rank 1
+0, 0, 5, 5
+1, 0, 5, 7
+1, 1, 7, 7
+Now I have 2 blocks
+block: 0, start: 75
+block: 1, start: 79
+block: 2, start: 35852543
+finish constructing boundary topology ...
+start initialize mesh information ...
+finish initialize mesh information ...
+start generate block topology ...
+add cell type: PYRA_5
+add cell type: TETRA_4
+The maximum block num is 2 at rank 1
+Now I have 2 blocks
+cell2cell
+确定网格类型数目
+add cell type: TRI_3
+The maximum block num is 1 at rank 0
+Now I have 1 blocks
+finish generate block topology ...
+start write inner mesh ...
+write 2 sections
+finish write inner mesh ...
+start write boundary mesh ...
+0
+75
+write section from 876 to 1201
+rank 2 write from 1064 to 1138
+1
+4
+write section from 1202 to 1217
+rank 2 write from 1206 to 1209
+finish write boundary mesh ...
+start write boundary condition ...
+rank 0 have 60 elements
+rank 1 have 66 elements
+rank 2 have 57 elements
+rank 3 have 63 elements
+rank 2 now have 246 elements
+write Boundary condition with ElementRange type
+finish write the 0th BC
+rank 0 have 0 elements
+rank 1 have 4 elements
+rank 2 have 4 elements
+rank 3 have 8 elements
+rank 2 now have 16 elements
+write Boundary condition with ElementRange type
+finish write the 1th BC
+rank 0 have 44 elements
+rank 1 have 18 elements
+rank 2 have 18 elements
+rank 3 have 0 elements
+rank 2 now have 80 elements
+write Boundary condition with ElementRange type
+finish write the 2th BC
+writeBC
+finish write boundary condition ...
+resFile: ./data/mixed_result.cgns, fieldName: vol, fieldType: cell, dim: 1, num: 218

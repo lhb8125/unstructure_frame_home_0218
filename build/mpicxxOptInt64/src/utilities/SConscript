@@ -1,0 +1,10 @@
+import GLOVAR as gl
+
+cxxfile = ['mpiWrapper/mpiWrapper.cpp',
+			'mpiWrapper/communicationManager/communicationManager.cpp',
+			'mpiWrapper/communicator/communicator.cpp']
+
+cfile = ['common/basicFunction.c']
+
+gl.add_files(cxxfile)
+gl.add_files(cfile)

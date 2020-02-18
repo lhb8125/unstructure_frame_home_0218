@@ -1,0 +1,13 @@
+import GLOVAR as gl
+
+
+cxxfile = ['topoInterfaces.cpp',
+			'fieldInterfaces.cpp',
+			'utilInterfaces.cpp',
+			'interface.cpp',
+			'blkInterfaces.cpp']
+fortranfile = ['utilInterfaces_fort.f90']
+
+
+gl.add_files(cxxfile)
+gl.add_files(fortranfile)

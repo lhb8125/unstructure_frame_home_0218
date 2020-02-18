@@ -1,0 +1,2251 @@
+scons: Reading SConscript files ...
+scons: Build interrupted.
+[?1034hsrun.sw: job 46730290 queued and waiting for resources
+srun.sw: job 46730290 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+block: 0, start: 193
+constructBlockTopology
+Location: [31mwriteSecInfo[0m, error message: [31mDuplicate child name found: QUAD_4[0m, file: [31mbuild/mpicxxOptInt64/src/mesh/mesh.cpp[0m, line: [329[0m
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+block: 0, start: 133
+block: 1, start: 149
+constructBlockTopology
+Location: [31mwriteSecInfo[0m, error message: [31mDuplicate child name found: QUAD_4[0m, file: [31mbuild/mpicxxOptInt64/src/mesh/mesh.cpp[0m, line: [329[0m
+srun.sw: error: cn060447: tasks 0-1: Exited with exit code 255
+srun.sw: job 46730304 queued and waiting for resources
+srun.sw: job 46730304 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+block: 0, start: 133
+block: 1, start: 149
+constructBlockTopology
+Location: [31mwriteSecInfo[0m, error message: [31mDuplicate child name found: QUAD_4[0m, file: [31mbuild/mpicxxOptInt64/src/mesh/mesh.cpp[0m, line: [329[0m
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+block: 0, start: 193
+constructBlockTopology
+Location: [31mwriteSecInfo[0m, error message: [31mDuplicate child name found: QUAD_4[0m, file: [31mbuild/mpicxxOptInt64/src/mesh/mesh.cpp[0m, line: [329[0m
+srun.sw: error: cn060447: tasks 0-1: Exited with exit code 255
+srun.sw: job 46730310 queued and waiting for resources
+srun.sw: job 46730310 has been allocated resources
+hello world!
+hello world!
+srun.sw: job 46730330 queued and waiting for resources
+srun.sw: job 46730330 has been allocated resources
+hello world!
+hello world!
+[46730330 ## Thu Jan  9 15:26:46 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: tasks 0-1: running
+srun.sw: sending Ctrl-C to job 46730330.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46730330.0 ON cn060567 CANCELLED AT 2020-01-09T15:26:46 ***
+srun.sw: job 46730382 queued and waiting for resources
+srun.sw: job 46730382 has been allocated resources
+hello world!
+hello world!
+srun.sw: job 46730386 queued and waiting for resources
+srun.sw: job 46730386 has been allocated resources
+hello world!
+hello world!
+srun.sw: job 46730337 queued and waiting for resources
+srun.sw: job 46730337 has been allocated resources
+hello world!
+hello world!
+srun.sw: job 46730394 queued and waiting for resources
+srun.sw: job 46730394 has been allocated resources
+hello world!
+hello world!
+srun.sw: job 46730401 queued and waiting for resources
+srun.sw: job 46730401 has been allocated resources
+hello world!
+hello world!
+srun.sw: Required node not available (down, drained or reserved)
+srun.sw: job 46730413 queued and waiting for resources
+srun.sw: job 46730413 has been allocated resources
+hello world!
+hello world!
+srun.sw: job 46730425 queued and waiting for resources
+srun.sw: job 46730425 has been allocated resources
+hello world!
+hello world!
+[46730310 ## Thu Jan  9 15:50:49 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+[46730337 ## Thu Jan  9 15:50:49 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: tasks 0-1: running
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: tasks 0-1: running
+srun.sw: sending Ctrl-C to job 46730310.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46730310.0 ON cn060447 CANCELLED AT 2020-01-09T15:50:49 ***
+srun.sw: sending Ctrl-C to job 46730337.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46730337.0 ON cn060567 CANCELLED AT 2020-01-09T15:50:49 ***
+srun.sw: job 46730438 queued and waiting for resources
+srun.sw: job 46730438 has been allocated resources
+hello world!
+hello world!
+srun.sw: job 46730522 queued and waiting for resources
+srun.sw: job 46730522 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+srun.sw: job 46730531 queued and waiting for resources
+srun.sw: job 46730531 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+srun.sw: job 46730549 queued and waiting for resources
+srun.sw: job 46730549 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+[46730382 ## Thu Jan  9 16:35:04 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: tasks 0-1: running
+srun.sw: sending Ctrl-C to job 46730382.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46730382.0 ON cn060952 CANCELLED AT 2020-01-09T16:35:05 ***
+[46730386 ## Thu Jan  9 16:36:14 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+[46730394 ## Thu Jan  9 16:36:14 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+[46730401 ## Thu Jan  9 16:36:14 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: tasks 0-1: running
+srun.sw: sending Ctrl-C to job 46730401.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46730401.0 ON cn060952 CANCELLED AT 2020-01-09T16:36:14 ***
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: tasks 0-1: running
+srun.sw: sending Ctrl-C to job 46730394.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46730394.0 ON cn060952 CANCELLED AT 2020-01-09T16:36:14 ***
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: tasks 0-1: running
+srun.sw: sending Ctrl-C to job 46730386.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46730386.0 ON cn060952 CANCELLED AT 2020-01-09T16:36:14 ***
+srun.sw: job 46730591 queued and waiting for resources
+srun.sw: job 46730591 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+[46730413 ## Thu Jan  9 16:47:05 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: tasks 0-1: running
+srun.sw: sending Ctrl-C to job 46730413.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46730413.0 ON cn060952 CANCELLED AT 2020-01-09T16:47:06 ***
+srun.sw: job 46730613 queued and waiting for resources
+srun.sw: job 46730613 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 7
+0, 7
+0, 7
+0, 7
+0, 7
+0, 7
+0, 7
+0, 7
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 33
+0, 412
+0, 1531841448
+0, 32
+0, 33
+0, 290
+0, 1531841336
+0, 32
+0, 33
+0, 7
+0, 8
+0, 37
+0, 321
+0, 26928640
+0, 0
+0, 3
+0, 1
+0, 0
+0, 4
+0, 24
+0, 0
+0, 0
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+[46730425 ## Thu Jan  9 16:49:05 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: tasks 0-1: running
+srun.sw: sending Ctrl-C to job 46730425.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46730425.0 ON cn060953 CANCELLED AT 2020-01-09T16:49:05 ***
+srun.sw: job 46730621 queued and waiting for resources
+srun.sw: job 46730621 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 7
+0, 7
+0, 7
+0, 7
+0, 7
+0, 7
+0, 7
+0, 7
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 33
+0, 412
+0, 1920957352
+0, 32
+0, 33
+0, 290
+0, 1920957240
+0, 32
+0, 33
+0, 7
+0, 8
+0, 37
+0, 321
+0, 25806336
+0, 0
+0, 3
+0, 1
+0, 0
+0, 4
+0, 24
+0, 0
+0, 0
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+[46730438 ## Thu Jan  9 16:53:02 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: tasks 0-1: running
+srun.sw: sending Ctrl-C to job 46730438.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46730438.0 ON cn060953 CANCELLED AT 2020-01-09T16:53:03 ***
+srun.sw: job 46731118 queued and waiting for resources
+srun.sw: job 46731118 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+0, 8, 12
+1, 429, 10
+0, 123, 5
+1, 8, 7
+2, 40, 5
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+0, 8, 12
+1, 430, 10
+0, 123, 5
+1, 8, 7
+2, 40, 5
+876, 998
+1122, 1129
+1138, 1177
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 7
+0, 7
+0, 7
+0, 7
+0, 7
+0, 7
+0, 7
+0, 7
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 5
+0, 33
+0, 412
+0, 1066544040
+0, 32
+0, 33
+0, 290
+0, 1066543928
+0, 32
+0, 33
+0, 7
+0, 8
+0, 37
+0, 321
+0, 48129536
+0, 0
+0, 3
+0, 1
+0, 0
+0, 4
+0, 24
+0, 0
+0, 0
+constructBlockTopology
+srun.sw: job 46731124 queued and waiting for resources
+srun.sw: job 46731124 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+0, 0, 5
+1, 0, 5
+2, 0, 5
+3, 0, 5
+4, 0, 5
+5, 0, 5
+6, 0, 5
+7, 0, 5
+8, 0, 5
+9, 0, 5
+10, 0, 5
+11, 0, 5
+12, 0, 5
+13, 0, 5
+14, 0, 5
+15, 0, 5
+16, 0, 5
+17, 0, 5
+18, 0, 5
+19, 0, 5
+20, 0, 5
+21, 0, 5
+22, 0, 5
+23, 0, 5
+24, 0, 5
+25, 0, 5
+26, 0, 5
+27, 0, 5
+28, 0, 5
+29, 0, 5
+30, 0, 5
+31, 0, 5
+32, 0, 5
+33, 0, 5
+34, 0, 5
+35, 0, 5
+36, 0, 5
+37, 0, 5
+38, 0, 5
+39, 0, 5
+40, 0, 5
+41, 0, 5
+42, 0, 5
+43, 0, 5
+44, 0, 5
+45, 0, 5
+46, 0, 5
+47, 0, 5
+48, 0, 5
+49, 0, 5
+50, 0, 5
+51, 0, 5
+52, 0, 5
+53, 0, 5
+54, 0, 5
+55, 0, 5
+56, 0, 5
+57, 0, 5
+58, 0, 5
+59, 0, 5
+60, 0, 5
+61, 0, 5
+62, 0, 5
+63, 0, 5
+64, 0, 5
+65, 0, 5
+66, 0, 5
+67, 0, 5
+68, 0, 5
+69, 0, 5
+70, 0, 5
+71, 0, 5
+72, 0, 5
+73, 0, 5
+74, 0, 5
+75, 0, 5
+76, 0, 5
+77, 0, 5
+78, 0, 5
+79, 0, 5
+80, 0, 5
+81, 0, 5
+82, 0, 5
+83, 0, 5
+84, 0, 5
+85, 0, 5
+86, 0, 5
+87, 0, 5
+88, 0, 5
+89, 0, 5
+90, 0, 5
+91, 0, 5
+92, 0, 5
+93, 0, 5
+94, 0, 5
+95, 0, 5
+96, 0, 5
+97, 0, 5
+98, 0, 5
+99, 0, 5
+100, 0, 5
+101, 0, 5
+102, 0, 5
+103, 0, 5
+104, 0, 5
+105, 0, 5
+106, 0, 5
+107, 0, 5
+108, 0, 5
+109, 0, 5
+110, 0, 5
+111, 0, 5
+112, 0, 5
+113, 0, 5
+114, 0, 5
+115, 0, 5
+116, 0, 5
+117, 0, 5
+118, 0, 5
+119, 0, 5
+120, 0, 5
+121, 0, 5
+122, 0, 5
+123, 0, 7
+124, 0, 7
+125, 0, 7
+126, 0, 7
+127, 0, 7
+128, 0, 7
+129, 0, 7
+130, 0, 7
+131, 0, 5
+132, 0, 5
+133, 0, 5
+134, 0, 5
+135, 0, 5
+136, 0, 5
+137, 0, 5
+138, 0, 5
+139, 0, 5
+140, 0, 5
+141, 0, 5
+142, 0, 5
+143, 0, 5
+144, 0, 5
+145, 0, 5
+146, 0, 5
+147, 0, 5
+148, 0, 5
+149, 0, 5
+150, 0, 5
+151, 0, 5
+152, 0, 5
+153, 0, 5
+154, 0, 5
+155, 0, 5
+156, 0, 5
+157, 0, 5
+158, 0, 5
+159, 0, 5
+160, 0, 5
+161, 0, 5
+162, 0, 5
+163, 0, 5
+164, 0, 5
+165, 0, 5
+166, 0, 5
+167, 0, 5
+168, 0, 5
+169, 0, 5
+170, 0, 5
+171, 0, 33
+172, 0, 412
+173, 0, -20501592
+174, 0, 32
+175, 0, 33
+176, 0, 290
+177, 0, -20501704
+178, 0, 32
+179, 0, 33
+180, 0, 7
+181, 0, 8
+182, 0, 37
+183, 0, 321
+184, 0, 43714048
+185, 0, 0
+186, 0, 3
+187, 0, 1
+188, 0, 0
+189, 0, 4
+190, 0, 24
+191, 0, 0
+192, 0, 0
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+srun.sw: job 46731624 queued and waiting for resources
+srun.sw: job 46731624 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+0, 0, 5
+1, 0, 5
+2, 0, 5
+3, 0, 5
+4, 0, 5
+5, 0, 5
+6, 0, 5
+7, 0, 5
+8, 0, 5
+9, 0, 5
+10, 0, 5
+11, 0, 5
+12, 0, 5
+13, 0, 5
+14, 0, 5
+15, 0, 5
+16, 0, 5
+17, 0, 5
+18, 0, 5
+19, 0, 5
+20, 0, 5
+21, 0, 5
+22, 0, 5
+23, 0, 5
+24, 0, 5
+25, 0, 5
+26, 0, 5
+27, 0, 5
+28, 0, 5
+29, 0, 5
+30, 0, 5
+31, 0, 5
+32, 0, 5
+33, 0, 5
+34, 0, 5
+35, 0, 5
+36, 0, 5
+37, 0, 5
+38, 0, 5
+39, 0, 5
+40, 0, 5
+41, 0, 5
+42, 0, 5
+43, 0, 5
+44, 0, 5
+45, 0, 5
+46, 0, 5
+47, 0, 5
+48, 0, 5
+49, 0, 5
+50, 0, 5
+51, 0, 5
+52, 0, 5
+53, 0, 5
+54, 0, 5
+55, 0, 5
+56, 0, 5
+57, 0, 5
+58, 0, 5
+59, 0, 5
+60, 0, 5
+61, 0, 5
+62, 0, 5
+63, 0, 5
+64, 0, 5
+65, 0, 5
+66, 0, 5
+67, 0, 5
+68, 0, 5
+69, 0, 5
+70, 0, 5
+71, 0, 5
+72, 0, 5
+73, 0, 5
+74, 0, 5
+75, 0, 5
+76, 0, 5
+77, 0, 5
+78, 0, 5
+79, 0, 5
+80, 0, 5
+81, 0, 5
+82, 0, 5
+83, 0, 5
+84, 0, 5
+85, 0, 5
+86, 0, 5
+87, 0, 5
+88, 0, 5
+89, 0, 5
+90, 0, 5
+91, 0, 5
+92, 0, 5
+93, 0, 5
+94, 0, 5
+95, 0, 5
+96, 0, 5
+97, 0, 5
+98, 0, 5
+99, 0, 5
+100, 0, 5
+101, 0, 5
+102, 0, 5
+103, 0, 5
+104, 0, 5
+105, 0, 5
+106, 0, 5
+107, 0, 5
+108, 0, 5
+109, 0, 5
+110, 0, 5
+111, 0, 5
+112, 0, 5
+113, 0, 5
+114, 0, 5
+115, 0, 5
+116, 0, 5
+117, 0, 5
+118, 0, 5
+119, 0, 5
+120, 0, 5
+121, 0, 5
+122, 0, 5
+123, 0, 5
+124, 0, 5
+125, 0, 5
+126, 0, 5
+127, 0, 5
+128, 0, 5
+129, 0, 5
+130, 0, 5
+131, 0, 5
+132, 0, 5
+133, 0, 5
+134, 0, 5
+135, 0, 5
+136, 0, 5
+137, 0, 5
+138, 0, 5
+139, 0, 5
+140, 0, 5
+141, 0, 5
+142, 0, 5
+143, 0, 5
+144, 0, 5
+145, 0, 5
+146, 0, 5
+147, 0, 5
+148, 0, 5
+149, 0, 5
+150, 0, 5
+151, 0, 5
+152, 0, 5
+153, 0, 5
+154, 0, 5
+155, 0, 5
+156, 0, 5
+157, 0, 5
+158, 0, 5
+159, 0, 5
+160, 0, 5
+161, 0, 5
+162, 0, 5
+163, 0, 5
+164, 0, 5
+165, 0, 5
+166, 0, 5
+167, 0, 5
+168, 0, 5
+169, 0, 5
+170, 0, 5
+171, 0, 5
+172, 0, 5
+173, 0, 5
+174, 0, 5
+175, 0, 5
+176, 0, 5
+177, 0, 5
+178, 0, 5
+179, 0, 5
+180, 0, 5
+181, 0, 5
+182, 0, 5
+183, 0, 5
+184, 0, 5
+185, 0, 5
+186, 0, 5
+187, 0, 5
+188, 0, 5
+189, 0, 5
+190, 0, 5
+191, 0, 5
+192, 0, 5
+constructBlockTopology
+srun.sw: job 46731625 queued and waiting for resources
+srun.sw: job 46731625 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+Location: [31mwriteSecInfo[0m, error message: [31mInvalid element range defined for section 'QUAD_4'[0m, file: [31mbuild/mpicxxOptInt64/src/mesh/boundary.cpp[0m, line: [621[0m
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+Location: [31mwriteSecInfo[0m, error message: [31mInvalid element range defined for section 'QUAD_4'[0m, file: [31mbuild/mpicxxOptInt64/src/mesh/boundary.cpp[0m, line: [621[0m
+srun.sw: error: cn060952: tasks 0-1: Exited with exit code 255
+srun.sw: job 46731634 queued and waiting for resources
+srun.sw: job 46731634 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+Location: [31mwriteSecInfo[0m, error message: [31mInvalid element range defined for section 'QUAD_4'[0m, file: [31mbuild/mpicxxOptInt64/src/mesh/boundary.cpp[0m, line: [622[0m
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+Location: [31mwriteSecInfo[0m, error message: [31mInvalid element range defined for section 'QUAD_4'[0m, file: [31mbuild/mpicxxOptInt64/src/mesh/boundary.cpp[0m, line: [622[0m
+srun.sw: error: cn060952: tasks 0-1: Exited with exit code 255
+srun.sw: job 46731641 queued and waiting for resources
+srun.sw: job 46731641 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+srun.sw: job 46732158 queued and waiting for resources
+srun.sw: job 46732158 has been allocated resources
+hello world!
+hello world!
+srun.sw: job 46732170 queued and waiting for resources
+srun.sw: job 46732170 has been allocated resources
+hello world!
+hello world!
+srun.sw: job 46732179 queued and waiting for resources
+srun.sw: job 46732179 has been allocated resources
+hello world!
+hello world!
+srun.sw: job 46732183 queued and waiting for resources
+srun.sw: job 46732183 has been allocated resources
+hello world!
+hello world!
+srun.sw: job 46732185 queued and waiting for resources
+srun.sw: job 46732185 has been allocated resources
+hello world!
+hello world!
+[46732158 ## Thu Jan  9 18:22:01 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: tasks 0-1: running
+srun.sw: sending Ctrl-C to job 46732158.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46732158.0 ON cn060953 CANCELLED AT 2020-01-09T18:22:02 ***
+[46732170 ## Thu Jan  9 18:26:02 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: tasks 0-1: running
+srun.sw: sending Ctrl-C to job 46732170.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46732170.0 ON cn060953 CANCELLED AT 2020-01-09T18:26:03 ***
+[46732179 ## Thu Jan  9 18:29:03 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: tasks 0-1: running
+srun.sw: sending Ctrl-C to job 46732179.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46732179.0 ON cn060953 CANCELLED AT 2020-01-09T18:29:04 ***
+[46732183 ## Thu Jan  9 18:32:04 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: tasks 0-1: running
+srun.sw: sending Ctrl-C to job 46732183.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46732183.0 ON cn060953 CANCELLED AT 2020-01-09T18:32:04 ***
+[46732185 ## Thu Jan  9 18:34:02 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: tasks 0-1: running
+srun.sw: sending Ctrl-C to job 46732185.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46732185.0 ON cn060953 CANCELLED AT 2020-01-09T18:34:03 ***
+srun.sw: job 46738714 queued and waiting for resources
+srun.sw: job 46738714 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+srun.sw: job 46738831 queued and waiting for resources
+srun.sw: job 46738831 has been allocated resources
+hello world!
+hello world!
+srun.sw: job 46738837 queued and waiting for resources
+srun.sw: job 46738837 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+srun.sw: job 46738944 queued and waiting for resources
+srun.sw: job 46738944 has been allocated resources
+hello world!
+hello world!
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+std::bad_alloc
+[cn060954:mpi_rank_1][error_sighandler] Caught error: Aborted (signal 6)
+srun.sw: error: cn060954: task 1: Aborted (core dumped)
+srun.sw: job 46738994 queued and waiting for resources
+srun.sw: job 46738994 has been allocated resources
+hello world!
+hello world!
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_allocinitialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+
+[cn060954:mpi_rank_1][error_sighandler] Caught error: Aborted (signal 6)
+srun.sw: error: cn060954: task 1: Aborted (core dumped)
+[46738831 ## Fri Jan 10 09:58:19 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: tasks 0-1: running
+srun.sw: sending Ctrl-C to job 46738831.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+[46738837 ## Fri Jan 10 09:58:28 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: task 0: running
+srun.sw: task 1: exited
+srun.sw: sending Ctrl-C to job 46738837.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46738837.0 ON cn060954 CANCELLED AT 2020-01-10T09:58:29 ***
+[46738944 ## Fri Jan 10 09:58:40 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: task 0: running
+srun.sw: task 1: exited abnormally
+srun.sw: sending Ctrl-C to job 46738944.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46738944.0 ON cn060954 CANCELLED AT 2020-01-10T09:58:40 ***
+srun.sw: job 46739011 queued and waiting for resources
+srun.sw: job 46739011 has been allocated resources
+hello world!
+hello world!
+srun.sw: job 46739022 queued and waiting for resources
+srun.sw: job 46739022 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+srun.sw: job 46739029 queued and waiting for resources
+srun.sw: job 46739029 has been allocated resources
+hello world!
+hello world!
+srun.sw: job 46739064 queued and waiting for resources
+srun.sw: job 46739064 has been allocated resources
+hello world!
+hello world!
+srun.sw: job 46739092 queued and waiting for resources
+srun.sw: job 46739092 has been allocated resources
+hello world!
+hello world!
+srun.sw: Required node not available (down, drained or reserved)
+srun.sw: job 46739114 queued and waiting for resources
+srun.sw: job 46739114 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+Location: [31mreadGridCGNS[0m, error message: [31mError reading CGNS-Library-Version[0m, file: [31mbuild/mpicxxOptInt64/src/mesh/boundary.cpp[0m, line: [118[0m
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+Location: [31mreadGridCGNS[0m, error message: [31mError reading CGNS-Library-Version[0m, file: [31mbuild/mpicxxOptInt64/src/mesh/boundary.cpp[0m, line: [118[0m
+srun.sw: error: cn060952: tasks 0-1: Exited with exit code 255
+srun.sw: job 46739906 queued and waiting for resources
+srun.sw: job 46739906 has been allocated resources
+hello world!
+hello world!
+srun.sw: job 46739939 queued and waiting for resources
+srun.sw: job 46739939 has been allocated resources
+hello world!
+hello world!
+srun.sw: job 46739953 queued and waiting for resources
+srun.sw: job 46739953 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+srun.sw: job 46740626 queued and waiting for resources
+srun.sw: job 46740626 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+Location: [31mreadGridCGNS[0m, error message: [31mError reading CGNS-Library-Version[0m, file: [31mbuild/mpicxxOptInt64/src/mesh/boundary.cpp[0m, line: [110[0m
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+srun.sw: error: cn060952: task 0: Exited with exit code 255
+srun.sw: job 46740649 queued and waiting for resources
+srun.sw: job 46740649 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+Location: [31mreadGridCGNS[0m, error message: [31mError reading CGNS-Library-Version[0m, file: [31mbuild/mpicxxOptInt64/src/mesh/boundary.cpp[0m, line: [111[0m
+srun.sw: error: cn060952: task 0: Exited with exit code 255
+srun.sw: job 46740669 queued and waiting for resources
+srun.sw: job 46740669 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+[46738994 ## Fri Jan 10 10:55:04 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: task 0: running
+srun.sw: task 1: exited abnormally
+srun.sw: sending Ctrl-C to job 46738994.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46738994.0 ON cn060954 CANCELLED AT 2020-01-10T10:55:04 ***
+srun.sw: job 46740710 queued and waiting for resources
+srun.sw: job 46740710 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+srun.sw: job 46740737 queued and waiting for resources
+srun.sw: job 46740737 has been allocated resources
+hello world!
+hello world!
+[46739011 ## Fri Jan 10 11:00:03 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: tasks 0-1: running
+srun.sw: sending Ctrl-C to job 46739011.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46739011.0 ON cn060952 CANCELLED AT 2020-01-10T11:00:04 ***
+srun.sw: job 46740750 queued and waiting for resources
+srun.sw: job 46740750 has been allocated resources
+hello world!
+hello world!
+srun.sw: job 46740754 queued and waiting for resources
+srun.sw: job 46740754 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+srun.sw: job 46740761 queued and waiting for resources
+srun.sw: job 46740761 has been allocated resources
+hello world!
+hello world!
+[46739029 ## Fri Jan 10 11:06:03 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: tasks 0-1: running
+srun.sw: sending Ctrl-C to job 46739029.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46739029.0 ON cn060952 CANCELLED AT 2020-01-10T11:06:03 ***
+srun.sw: job 46740784 queued and waiting for resources
+srun.sw: job 46740784 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+srun.sw: job 46740790 queued and waiting for resources
+srun.sw: job 46740790 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+[46739064 ## Fri Jan 10 11:12:04 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: tasks 0-1: running
+srun.sw: sending Ctrl-C to job 46739064.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46739064.0 ON cn060952 CANCELLED AT 2020-01-10T11:12:04 ***
+srun.sw: job 46740797 queued and waiting for resources
+srun.sw: job 46740797 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+[46739092 ## Fri Jan 10 11:15:01 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: tasks 0-1: running
+srun.sw: sending Ctrl-C to job 46739092.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46739092.0 ON cn060952 CANCELLED AT 2020-01-10T11:15:02 ***
+srun.sw: job 46740814 queued and waiting for resources
+srun.sw: job 46740814 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+srun.sw: job 46740816 queued and waiting for resources
+srun.sw: job 46740816 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+[46739906 ## Fri Jan 10 11:25:05 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: tasks 0-1: running
+srun.sw: sending Ctrl-C to job 46739906.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46739906.0 ON cn060952 CANCELLED AT 2020-01-10T11:25:06 ***
+srun.sw: job 46740879 queued and waiting for resources
+srun.sw: job 46740879 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+srun.sw: job 46741374 queued and waiting for resources
+srun.sw: job 46741374 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+[46739939 ## Fri Jan 10 11:34:01 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: tasks 0-1: running
+srun.sw: sending Ctrl-C to job 46739939.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46739939.0 ON cn060952 CANCELLED AT 2020-01-10T11:34:02 ***
+srun.sw: job 46741377 queued and waiting for resources
+srun.sw: job 46741377 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+[46740669 ## Fri Jan 10 11:37:34 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+[46740737 ## Fri Jan 10 11:37:34 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+[46740750 ## Fri Jan 10 11:37:34 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+[46740761 ## Fri Jan 10 11:37:34 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: tasks 0-1: running
+srun.sw: sending Ctrl-C to job 46740737.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46740737.0 ON cn060953 CANCELLED AT 2020-01-10T11:37:34 ***
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: tasks 0-1: running
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: task 0: running
+srun.sw: task 1: exited
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: tasks 0-1: running
+srun.sw: sending Ctrl-C to job 46740761.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46740761.0 ON cn060952 CANCELLED AT 2020-01-10T11:37:34 ***
+srun.sw: sending Ctrl-C to job 46740669.0
+srun.sw: sending Ctrl-C to job 46740750.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46740669.0 ON cn060952 CANCELLED AT 2020-01-10T11:37:34 ***
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46740750.0 ON cn060952 CANCELLED AT 2020-01-10T11:37:34 ***
+srun.sw: Required node not available (down, drained or reserved)
+srun.sw: job 46741392 queued and waiting for resources
+srun.sw: job 46741392 has been allocated resources
+hello world!
+hello world!
+srun.sw: job 46741394 queued and waiting for resources
+srun.sw: job 46741394 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+[46741392 ## Fri Jan 10 12:44:05 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: tasks 0-1: running
+srun.sw: sending Ctrl-C to job 46741392.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46741392.0 ON cn060952 CANCELLED AT 2020-01-10T12:44:06 ***
+[46741394 ## Fri Jan 10 12:46:04 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: task 0: running
+srun.sw: task 1: exited
+srun.sw: sending Ctrl-C to job 46741394.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46741394.0 ON cn060952 CANCELLED AT 2020-01-10T12:46:04 ***
+srun.sw: job 46743008 queued and waiting for resources
+srun.sw: job 46743008 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+srun.sw: job 46743014 queued and waiting for resources
+srun.sw: job 46743014 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+srun.sw: job 46743056 queued and waiting for resources
+srun.sw: job 46743056 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+srun.sw: job 46743060 queued and waiting for resources
+srun.sw: job 46743060 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+srun.sw: job 46743133 queued and waiting for resources
+srun.sw: job 46743133 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+[31m[1m CATCHSIG: Myid = 1, si_signo = 11(Segmentation Fault) [0m
+srun.sw: job 46743183 queued and waiting for resources
+srun.sw: job 46743183 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+srun.sw: job 46743205 queued and waiting for resources
+srun.sw: job 46743205 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+srun.sw: Required node not available (down, drained or reserved)
+srun.sw: job 46743234 queued and waiting for resources
+srun.sw: job 46743234 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+[46743133 ## Fri Jan 10 15:00:07 2020]  ’µΩ◊˜“µ÷’÷π«Î«Û£®bkill£©.
+srun.sw: interrupt (one more within 1 sec to abort)
+srun.sw: tasks 0-1: running
+srun.sw: sending Ctrl-C to job 46743133.0
+srun.sw: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46743133.0 ON cn060952 CANCELLED AT 2020-01-10T15:00:07 ***
+srun.sw: job 46743881 queued and waiting for resources
+srun.sw: job 46743881 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+srun.sw: job 46743886 queued and waiting for resources
+srun.sw: job 46743886 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+srun.sw: job 46743939 queued and waiting for resources
+srun.sw: job 46743939 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+srun.sw: job 46743999 queued and waiting for resources
+srun.sw: job 46743999 has been allocated resources
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+999, 1121
+1130, 1137
+1178, 1217
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 998
+1122, 1129
+1138, 1177
+constructBlockTopology
+srun.sw: job 46744000 queued and waiting for resources
+srun.sw: job 46744000 has been allocated resources
+hello world!
+hello world!
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+1062, 1121
+1134, 1137
+1198, 1217
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+938, 999
+1126, 1129
+1158, 1177
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 937
+1122, 1125
+1138, 1157
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+1000, 1061
+1130, 1133
+1178, 1197
+constructBlockTopology
+srun.sw: job 46744551 queued and waiting for resources
+srun.sw: job 46744551 has been allocated resources
+hello world!
+hello world!
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 937
+1122, 1125
+1138, 1157
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+1062, 1121
+1134, 1137
+1198, 1217
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+1000, 1061
+1130, 1133
+1178, 1197
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+938, 999
+1126, 1129
+1158, 1177
+constructBlockTopology
+srun.sw: job 46744574 queued and waiting for resources
+srun.sw: job 46744574 has been allocated resources
+hello world!
+hello world!
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+1062, 1121
+1134, 1137
+1198, 1217
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 937
+1122, 1125
+1138, 1157
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+1000, 1061
+1130, 1133
+1178, 1197
+constructBlockTopology
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+938, 999
+1126, 1129
+1158, 1177
+constructBlockTopology
+srun.sw: job 46840648 queued and waiting for resources
+srun.sw: job 46840648 has been allocated resources
+hello world!
+hello world!
+hello world!
+hello world!
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+938, 999
+1126, 1129
+1158, 1177
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+876, 937
+1122, 1125
+1138, 1157
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+1000, 1061
+1130, 1133
+1178, 1197
+initialize MPI environment ......
+reading CGNS file: ./data/tetra_4_pyra_5.cgns, 
+writing CGNS file: ./data/mixed_result.cgns
+1062, 1121
+1134, 1137
+1198, 1217
