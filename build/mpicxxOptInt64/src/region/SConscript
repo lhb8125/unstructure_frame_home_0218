@@ -1,5 +1,0 @@
-import GLOVAR as gl
-
-cxxfile = ['region.cpp',]
-
-gl.add_files(cxxfile)

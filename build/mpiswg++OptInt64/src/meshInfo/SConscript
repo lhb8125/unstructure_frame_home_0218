@@ -1,6 +1,0 @@
-import GLOVAR as gl
-
-cxxfile = ['meshInfo.cpp',
-			'geometry.cpp']
-
-gl.add_files(cxxfile)

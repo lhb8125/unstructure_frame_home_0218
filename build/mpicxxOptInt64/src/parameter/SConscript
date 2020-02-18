@@ -1,5 +1,0 @@
-import GLOVAR as gl
-
-cxxfile = ['parameter.cpp',]
-
-gl.add_files(cxxfile)
