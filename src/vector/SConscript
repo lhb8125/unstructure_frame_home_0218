@@ -1,0 +1,5 @@
+import GLOVAR as gl
+
+cxxfile = ['hsf_vector.cpp',]
+
+gl.add_files(cxxfile)

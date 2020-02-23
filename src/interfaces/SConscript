@@ -5,7 +5,8 @@ cxxfile = ['topoInterfaces.cpp',
 			'fieldInterfaces.cpp',
 			'utilInterfaces.cpp',
 			'interface.cpp',
-			'blkInterfaces.cpp']
+			'blkInterfaces.cpp',
+			'vectorInterfaces.cpp']
 fortranfile = ['utilInterfaces_fort.f90']
 
 
